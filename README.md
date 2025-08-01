@@ -1,13 +1,13 @@
 # 📅 Calendr
 
 **Calendr** is a modern, lightweight, and **power-user friendly** calendar app.  
-It’s inspired by Google Calendar — but reimagined to be **faster**, **simpler**, and more **focused** for everyday use.
+Created with a goal of being a better version of Google Calendar — designed to be **faster**, **simpler**, and more **focused** for everyday use.
 
 ---
 
 ## 🌟 Why Calendr?
 
-Most calendar apps (including Google Calendar) are powerful, but they can feel **clunky** and **overloaded**.  
+Most calendar apps (including Google Calendar) are powerful, but they can feel **clunky**.  
 Calendr is designed to be the **calendar you actually want to use daily**:
 
 ✅ **Quick & intuitive editing** – Add or change events with just a click or shortcut.  
@@ -32,6 +32,9 @@ We want to make an app that:
 
 🔹 Month, Week, and Day views  
 🔹 Add, edit, delete events quickly  
+🔹 Check lists within tasks/events. 
+🔹 Time blocked Todo tasks.   
+🔹 Scrolling with mouse wheel. 
 🔹 Simple reminders (local notifications)  
 🔹 Keyboard shortcuts for power users  
 🔹 Clean, Tailwind-powered UI
