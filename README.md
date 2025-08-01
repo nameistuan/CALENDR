@@ -1,7 +1,7 @@
 # 📅 Calendr
 
 **Calendr** is a modern, lightweight, and **power-user friendly** calendar app.  
-It’s inspired by Google Calendar — but reimagined to be **faster**, **simpler**, and more **focused** for everyday use.
+Motivated to create a better version of Google Calendar — reimagined to be **faster**, **simpler**, and more **focused** for everyday use.
 
 ---
 
