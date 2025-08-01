@@ -32,12 +32,13 @@ We want to make an app that:
 
 🔹 Month, Week, and Day views  
 🔹 Add, edit, delete events quickly  
-🔹 Check lists within tasks/events. 
+🔹 Check lists within tasks/events.  
 🔹 Time blocked Todo tasks.   
-🔹 Scrolling with mouse wheel. 
+🔹 Scrolling with mouse wheel.  
 🔹 Simple reminders (local notifications)  
 🔹 Keyboard shortcuts for power users  
-🔹 Clean, Tailwind-powered UI
+🔹 Clean, Tailwind-powered UI  
+🔹 Authentication and account syncing.  
 
 ---
 
@@ -57,6 +58,35 @@ We want to make an app that:
 - ⚛️ **React** – UI library  
 - 🎨 **TailwindCSS** – Modern styling  
 - 🔧 **Vite** – Fast development & bundling
+
+---
+
+## 📁 Project Structure
+
+```plaintext
+Calendr/
+├── node_modules/          # Auto-generated; all npm dependencies
+├── public/                # Static files (icons, manifest) served as-is
+├── src/                   # 💻 All React code lives here
+│   ├── assets/            # Images, icons, and other static assets
+│   ├── components/        # Reusable UI pieces (Calendar, Sidebar, Buttons)
+│   ├── styles/            # Global styling
+│   │   └── index.css      # Tailwind’s base + custom styles
+│   └── ui/                # Core React app structure
+│       ├── App.jsx        # Root React component
+│       └── main.jsx       # React entry point (mounts App.jsx to index.html)
+│
+├── .gitignore             # Files/folders Git should ignore
+├── electron-main.js       # Electron’s main process (launches app window)
+├── index.html             # Base HTML for React to mount into
+├── package-lock.json      # Auto-generated lockfile for npm versions
+├── package.json           # Project metadata + dependencies + scripts
+├── postcss.config.js      # PostCSS/Tailwind setup
+├── README.md              # Project documentation (you’re reading it!)
+├── tailwind.config.js     # Tailwind customization (themes, colors)
+└── vite.config.mjs        # Vite config for bundling React
+
+```
 
 ---
 
